@@ -112,7 +112,7 @@ services:
     # You also have to change the flower command
   
   flower:
-    image: mher/flower:0.9.7
+    image: mher/flower
     networks:
       - ${TRAEFIK_PUBLIC_NETWORK?Variable not set}
       - default
